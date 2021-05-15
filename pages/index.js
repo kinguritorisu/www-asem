@@ -47,8 +47,7 @@ export default function Home() {
                     <li><a href="/facultati"></a></li>
                   </ul>
                 </li>
-                <separator></separator>
-                <li className="px-2"><a href="">Student ASEM</a></li>
+                <li className="px-2"><a href="/facultati">Student ASEM</a></li>
               </ul>
             </nav>
             <a href="/facultati" className="w-36 h-36 rounded-full bg-white flex items-center">
