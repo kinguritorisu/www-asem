@@ -17,34 +17,34 @@ export default function Home() {
         <header>
           <div className="container mx-auto flex flex-row items-center py-8 py-4">
             <logo>
-              <a href="#">
+              <a href="/">
                 <Image src="/images/logo-asem.svg" alt="asem logo" width={200} height={56}></Image>
               </a>
             </logo>
             <nav className="flex-grow px-24">
               <ul className="flex justify-center text-white">
                 <li className="px-2">
-                  <a href="">Facultati</a>
+                  <a href="/facultati">Facultati</a>
                   <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="/facultati"></a></li>
                   </ul>
                 </li>
                 <li className="px-2">
-                  <a href="">Prezentare</a>
+                  <a href="/facultati">Prezentare</a>
                   <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="/facultati"></a></li>
                   </ul>
                 </li>
                 <li className="px-2">
-                  <a href="">Cercetare</a>
+                  <a href="/facultati">Cercetare</a>
                   <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="/facultati"></a></li>
                   </ul>
                 </li>
                 <li className="px-2">
-                  <a href="">Relatii internationale</a>
+                  <a href="/facultati">Relatii internationale</a>
                   <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="/facultati"></a></li>
                   </ul>
                 </li>
                 <separator></separator>
