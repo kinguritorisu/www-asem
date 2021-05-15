@@ -80,10 +80,10 @@ export default function Home() {
         <div className="container mx-auto my-28 flex flex-col items-center justify-center">
           <span className="text-sm text-gray-500">Partenerii nostri de incredere</span>
           <ul className="grid grid-cols-4 gap-16 relative">
-            <li className="flex my-4"><a style={{height: '80px', padding: '24px'}}><Image src="/images/partner-1.png" alt="partner 1" width={'auto'} height={56}></Image></a></li>
-            <li className="flex my-4"><a style={{height: '80px', padding: '24px'}}><Image src="/images/partner-2.png" alt="partner 2" width={'auto'} height={56}></Image></a></li>
-            <li className="flex my-4"><a style={{height: '80px', padding: '24px'}}><Image src="/images/partner-3.png" alt="partner 3" width={'auto'} height={56}></Image></a></li>
-            <li className="flex my-4"><a style={{height: '80px', padding: '24px'}}><Image src="/images/partner-4.png" alt="partner 4" width={'auto'} height={56}></Image></a></li>
+            <li className="flex my-4"><a href="/facultati" style={{height: '80px', padding: '24px'}}><Image src="/images/partner-1.png" alt="partner 1" width={'auto'} height={56}></Image></a></li>
+            <li className="flex my-4"><a href="/facultati" style={{height: '80px', padding: '24px'}}><Image src="/images/partner-2.png" alt="partner 2" width={'auto'} height={56}></Image></a></li>
+            <li className="flex my-4"><a href="/facultati" style={{height: '80px', padding: '24px'}}><Image src="/images/partner-3.png" alt="partner 3" width={'auto'} height={56}></Image></a></li>
+            <li className="flex my-4"><a href="/facultati" style={{height: '80px', padding: '24px'}}><Image src="/images/partner-4.png" alt="partner 4" width={'auto'} height={56}></Image></a></li>
           </ul>
         </div>
       </partners>
