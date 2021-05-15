@@ -66,7 +66,7 @@ export default function Home() {
             <description className="text-white">
               Educarea unei noi mentalități în spiritul libertății de gândire și acțiune, al pragmatismului și eficientei vieții.
             </description>
-            <a href="/" className="my-4 p-4 bg-white self-start rounded-xl text-base text-center text-blue-800 font-extrabold">
+            <a href="/facultati" className="my-4 p-4 bg-white self-start rounded-xl text-base text-center text-blue-800 font-extrabold">
               Aplica ACUM!
             </a>
           </heroleft>
