@@ -14,3 +14,10 @@
 hero {
   background: linear-gradient(#0101A9, #93F3FF);
 }
+
+.heroImg {
+  background-image: url('/images/Bitmap.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
