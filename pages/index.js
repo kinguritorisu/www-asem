@@ -152,7 +152,7 @@ export default function Home() {
           </div>
           <hr className="mb-6"></hr>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            <div className="col-span-8 md:col-span-12">
+            <div className="col-span-12 md:col-span-8">
                 <div className="flex flex-col">
                   <div className="relative flex items-end rounded-2xl shadow-xl mb-6" style={{height:"500px", overflow: 'hidden'}}>
                     <Image src="/images/main-article.png" alt="news 1" layout="fill" objectFit="cover" objectPosition="center"></Image>
@@ -167,7 +167,7 @@ export default function Home() {
                   </a>
                 </div>
             </div>
-            <div className="col-span-4 md:col-span-12">
+            <div className="col-span-12 md:col-span-4">
               <div className="flex flex-row mb-6">
                 <div className="relative rounded-2xl mr-6 flex-shrink-0" style={{height: '150px', width: '150px', overflow: 'hidden'}}>
                   <Image src="/images/article-1.png" alt="news 2" layout="fill" objectFit="cover" objectPosition="center"></Image>
